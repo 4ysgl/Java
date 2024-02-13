@@ -15,6 +15,7 @@ public class forD {
         System.out.println("sayıla:"+ toplam);
         System.out.println("ciftler toplamı:"+toplamC);
         System.out.println("tekler toplamı:" +ToplamT );
+
     }
 }
 
