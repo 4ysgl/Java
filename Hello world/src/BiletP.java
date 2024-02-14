@@ -6,16 +6,16 @@ public class BiletP {
         Scanner scan = new Scanner(System.in);
         
         double biletF=50;
-        
-        for (int i = 0; i<3; i++){
+        for  (int i = 0; i<3; i++)
+        {
             System.out.println("yaş giriniz" );
             int yas=scan.nextInt();
-
 
             if (yas<=10)
             {
                 System.out.println("bilet ücretsiz ");
-            } else if (yas>=11 && yas<=40) {
+            }
+            else if (yas>=11 && yas<=40) {
                 biletF = biletF *0.75;
                 System.out.println("bilet ücreti indirimli %25:" + biletF);
 
