@@ -10,7 +10,6 @@ public class Cmodalma {
         int sayi,top2 = 0,top3 = 0;
         int ort =0;
 
-
         for (int i=1;i<=adet;i++){
             System.out.println(i+". sayıyı gırın: ");
             sayi=scan.nextInt();
@@ -29,10 +28,6 @@ public class Cmodalma {
                 System.out.println("tekrar");
             }
             ort=(top2+top3)/adet;
-
-
-
-
 
         }
         System.out.println("ortalama:  "+ort);
