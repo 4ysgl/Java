@@ -13,8 +13,7 @@ public class Cmodalma {
         for (int i=1;i<=adet;i++){
             System.out.println(i+". sayıyı gırın: ");
             sayi=scan.nextInt();
-
-
+            
             if (sayi%2==0  )
             {
                 top2= top2 +sayi ;
